@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23000012540514482}
   - component: {fileID: 114000012832345502}
   - component: {fileID: 65000013815313920}
+  - component: {fileID: 114411114300212200}
   m_Layer: 0
   m_Name: Yellow Skyscraper
   m_TagString: Untagged
@@ -106,3 +107,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.875, y: 2.000001, z: 7.151139}
   m_Center: {x: -0.0625, y: -0.00000047683716, z: 2.5755694}
+--- !u!114 &114411114300212200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012350739284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0309f8fd8be104e46955754613c6159e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1

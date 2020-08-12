@@ -10,15 +10,6 @@ public class Airplane : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		// if airplane goes past the left edge, destroy it
-		if (transform.position.x < -25) {
-			Destroy(gameObject);
-		}
-		else {
-
-			// make it go twice as fast as the skyscraper spawner speed toward the left
-			transform.Translate(-SkyscraperSpawner.speed * 2 * Time.deltaTime, 0, 0, Space.World);
-		}
 	}
 
 	void OnTriggerEnter(Collider other) {
