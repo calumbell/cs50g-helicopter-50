@@ -11,8 +11,6 @@ public class Coin : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		// infinitely rotate this coin about the Y axis in world space
-		transform.Rotate(0, 5f, 0, Space.World);
 	}
 
 }
