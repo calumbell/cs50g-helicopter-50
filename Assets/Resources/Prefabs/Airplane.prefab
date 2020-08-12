@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 33000014227115036}
   - component: {fileID: 23000011566375870}
   - component: {fileID: 95000012263372792}
-  - component: {fileID: 114000012108294122}
   - component: {fileID: 65000010411162436}
   - component: {fileID: 114251157971050144}
+  - component: {fileID: 6054867232284036185}
   m_Layer: 0
   m_Name: Airplane
   m_TagString: Untagged
@@ -102,18 +102,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114000012108294122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000012238573890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcb45777e9edadd408cc84124f1a86b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &65000010411162436
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -140,3 +128,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+--- !u!114 &6054867232284036185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012238573890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0777ed83a5d89418996c48267c93087e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyObstacleOnCollision: 1

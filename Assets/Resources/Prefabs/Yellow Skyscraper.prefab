@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4000011100504092}
   - component: {fileID: 33000010462597194}
   - component: {fileID: 23000012540514482}
-  - component: {fileID: 114000012832345502}
   - component: {fileID: 65000013815313920}
   - component: {fileID: 114411114300212200}
+  - component: {fileID: 114305013564288982}
   m_Layer: 0
   m_Name: Yellow Skyscraper
   m_TagString: Untagged
@@ -82,18 +82,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &114000012832345502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000012350739284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b04e699576a932f4880c99bf34d59d32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &65000013815313920
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -120,3 +108,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+--- !u!114 &114305013564288982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012350739284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0777ed83a5d89418996c48267c93087e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyObstacleOnCollision: 0
