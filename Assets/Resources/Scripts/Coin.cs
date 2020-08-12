@@ -15,10 +15,4 @@ public class Coin : MonoBehaviour {
 		transform.Rotate(0, 5f, 0, Space.World);
 	}
 
-	void OnTriggerEnter(Collider other) {
-
-		// trigger coin pickup function if a helicopter collides with this
-		other.transform.parent.GetComponent<HeliController>().PickupCoin();
-		Destroy(gameObject);
-	}
 }
