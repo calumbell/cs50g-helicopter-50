@@ -4,7 +4,8 @@ using System.Collections;
 public class SkyscraperSpawner : MonoBehaviour {
 
 	public GameObject[] prefabs;
-	public static float speed = 10f;
+	public static float defaultSpeed = 10f;
+	public static float speed = defaultSpeed;
 
 	// Use this for initialization
 	void Start () {
