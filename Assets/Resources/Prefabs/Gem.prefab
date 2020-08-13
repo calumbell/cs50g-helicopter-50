@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6165569823324022000}
   - component: {fileID: 114494552030785930}
   - component: {fileID: 114285086079130638}
+  - component: {fileID: 4615402369736362339}
   m_Layer: 0
   m_Name: Gem
   m_TagString: Untagged
@@ -88,7 +89,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6165569823324022015}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8658924, z: 1}
@@ -121,3 +122,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 5
+--- !u!114 &4615402369736362339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6165569823324022015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0309f8fd8be104e46955754613c6159e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
