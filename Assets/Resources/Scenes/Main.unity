@@ -276,6 +276,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 219926774}
+  - component: {fileID: 219926775}
   - component: {fileID: 219926773}
   m_Layer: 0
   m_Name: CollectableSpawner
@@ -293,12 +294,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 219926772}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b65e87cca965541c3bceedcb855ae12f, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c41e4f83420142e8aec26665c92a216, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 1000011281862712, guid: ee4a50b2d53520f4ba6f4a153747053c, type: 3}
-  - {fileID: 6165569823324022015, guid: dab077af7e68f4352b440c29b823b676, type: 3}
+  prefab: {fileID: 6165569823324022015, guid: dab077af7e68f4352b440c29b823b676, type: 3}
 --- !u!4 &219926774
 Transform:
   m_ObjectHideFlags: 0
@@ -313,6 +312,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &219926775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219926772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15168d22587bb4f81b53909c251b94eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1000011281862712, guid: ee4a50b2d53520f4ba6f4a153747053c, type: 3}
 --- !u!1 &393014838
 GameObject:
   m_ObjectHideFlags: 0
